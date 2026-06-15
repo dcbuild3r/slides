@@ -1,0 +1,21 @@
+{
+  "name": "hermes-agentkit-toolrouter-video",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "still": "remotion still src/index.ts HermesAgentKitToolRouter --frame=1260 --scale=0.5 out/preview.png",
+    "render": "remotion render src/index.ts HermesAgentKitToolRouter out/hermes-agentkit-toolrouter.mp4"
+  },
+  "dependencies": {
+    "@remotion/cli": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "remotion": "latest",
+    "typescript": "latest"
+  },
+  "devDependencies": {}
+}
